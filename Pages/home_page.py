@@ -25,6 +25,12 @@ class PomHomePage:
         self.cart_link.click()
         return PomCartPage(self.page)
 
+    def click_logout_link(self):
+        from Pages.login_page import PomLoginPage
+        self.page.wait_for_timeout(5000)
+        self.logout_link.click()
+        return PomLoginPage(self.page)
+
 
 
 
