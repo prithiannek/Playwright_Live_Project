@@ -22,7 +22,7 @@ class PomLoginPage:
         self.login_close_icon = page.locator("//button[@class='close']").nth(2)
         self.cart_link = page.locator("#cartur")
         self.about_us_link = page.get_by_text("About us")
-        self.about_us_link = page.get_by_text("Contact")
+        self.contact_link = page.get_by_text("Contact")
         self.home_link = page.get_by_text("Home ")
 
 

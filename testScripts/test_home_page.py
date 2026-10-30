@@ -1,5 +1,3 @@
-from email.mime import message
-
 from playwright.sync_api import Page, expect
 
 from constants.constant import login_url

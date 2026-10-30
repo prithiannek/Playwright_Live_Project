@@ -1,6 +1,3 @@
-from email.mime import message
-from tkinter import dialog
-
 import pytest
 from playwright.sync_api import Page, expect
 from constants.constant import login_url
